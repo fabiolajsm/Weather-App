@@ -1,4 +1,4 @@
-# First Practice React
+# The small first practice of React
 ## Weather-App
 Application to find the weather of a place. 
 
