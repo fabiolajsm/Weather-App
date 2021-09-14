@@ -1,0 +1,45 @@
+.in {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    color: whitesmoke;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.inp {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    padding: 10px;
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+.inp::placeholder {
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.bt {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    right: 0px;
+    color: #c1d3fe;
+    background-color: rgba(39, 76, 119, 0.2);
+    pointer-events: painted;
+}

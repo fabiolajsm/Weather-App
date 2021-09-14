@@ -5,7 +5,7 @@ import './Cards.css';
 export default function Cards({ cities, onClose }) {
   if (cities.length < 1) {
     return <div>
-      <h5 className='search'>Busca un lugar</h5>
+      <h5 className='search'>Aplicación del clima</h5>
     </div>
   }
   return (
