@@ -1,7 +1,6 @@
 import React from 'react';
+import Card from '../Card/Card.jsx';
 import './Cards.css';
-
-import Card from './Card.jsx';
 
 export default function Cards({ cities, onClose }) {
   if (cities.length < 1) {
@@ -13,11 +12,11 @@ export default function Cards({ cities, onClose }) {
     <div className='cards'>
       {cities.map(c => <Card
         key={c.id}
+        id={c.id}
+        name={c.name}
         max={c.max}
         min={c.min}
-        name={c.name}
         img={c.img}
-        id={c.id}
         onClose={() => onClose(c.id)}
       />)}
     </div>

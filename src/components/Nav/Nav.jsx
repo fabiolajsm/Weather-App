@@ -1,8 +1,8 @@
 import React from 'react';
-import Logo from '../img/logoHenry.png'
-import SearchBar from './SearchBar.jsx';
-import './Nav.css';
+import Logo from '../../img/logoHenry.png'
+import SearchBar from '../SearchBar/SearchBar';
 import { Link } from "react-router-dom";
+import './Nav.css';
 
 
 function Nav({ onSearch }) {

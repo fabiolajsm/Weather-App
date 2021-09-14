@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  background-color: rgb(0, 119, 182);
+  background-image: linear-gradient(to top, rgba(202, 240, 248), rgba(144, 224, 239, 0.2));
+  min-height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}

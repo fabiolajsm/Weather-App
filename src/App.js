@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
-
-import './App.css';
-import Nav from '../components/Nav.jsx';
-import Cards from '../components/Cards.jsx';
-import About from '../components/About';
-import City from "../components/City";
+import './App.css'
+import Nav from './components/Nav/Nav';
+import Cards from './components/Cards/Cards.jsx';
+import City from "./components/City/City";
 import { Route } from "react-router-dom";
-
-
 const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
+
 
 function App() {
   const [cities, setCities] = useState([]);
@@ -51,7 +48,6 @@ function App() {
     <div className="App">
       <Route path="/" render={() => <Nav onSearch={onSearch} />} />
       <Route exact path="/" render={() => <Cards cities={cities} onClose={onClose} />} />
-      <Route exact path="/about" component={About} />
       <Route path="/city/:cityId" render={({ match }) => <City city={onFilter(match.params.cityId)} />} />
     </div>
   );
