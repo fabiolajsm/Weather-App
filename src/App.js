@@ -33,7 +33,7 @@ function App() {
 
           setCities(oldCities => [...oldCities, ciudad]);
         } else {
-          alert("City no encontrada");
+          alert("Lugar no encontrado");
         }
       });
   }

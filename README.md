@@ -1,5 +1,5 @@
-# The small first practice of React
-## Weather-App
-Application to find the weather of a place. 
-
-<img src="iimg/../img-screen/borrar-ciudad.gif" alt="app">
+# Weather-App
+### Application to find the climate of a place, this is a small practice with React.js and CSS.
+---
+<br>
+<img src="src/img/weatherApp.png" alt="app">

@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import './City.css';
 
 export default function City({ city }) {
-    if (!city) return <div>Ups, no tenemos información del lugar!</div>
+    if (!city) return <div>
+        <h5 className='search'>Ups, no tenemos información del lugar!</h5>
+    </div>
     return (
         <div className="container">
             <Link to="/" id="close">🡠</Link>
