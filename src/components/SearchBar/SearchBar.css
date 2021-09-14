@@ -43,3 +43,7 @@
     background-color: rgba(39, 76, 119, 0.2);
     pointer-events: painted;
 }
+
+.bt:hover {
+    background-color: rgba(39, 76, 119, 0.4);
+}

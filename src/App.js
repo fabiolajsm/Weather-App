@@ -6,7 +6,6 @@ import City from "./components/City/City";
 import { Route } from "react-router-dom";
 const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
 
-
 function App() {
   const [cities, setCities] = useState([]);
 
